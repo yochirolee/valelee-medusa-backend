@@ -16,7 +16,7 @@ export default defineConfig({
     },
   },
   admin: {
-    disable: true,
+    disable: false,
   },
   modules: [
     {
