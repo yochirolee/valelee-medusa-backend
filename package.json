@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "predeploy": "medusa migrations run",
-    "start": "medusa start && medusa user -e leidivioleta@gmail.com -p admin123",
+    "start": "medusa start",
     "dev": "medusa develop"
   },
   "dependencies": {    
