@@ -2,12 +2,12 @@
   "name": "medusa-starter-default",
   "version": "0.0.1",
   "scripts": {
-    "start": "node node_modules/@medusajs/cli/cli.js start",
-    "predeploy": "node node_modules/@medusajs/cli/cli.js migrations run",
-    "dev": "node node_modules/@medusajs/cli/cli.js develop"
+    "predeploy": "medusa migrations run",
+    "start": "medusa start",
+    "dev": "medusa develop"
   },
   "dependencies": {
-    "@medusajs/cli": "2.8.8",
+    "@medusajs/cli": "^2.8.8",
     "@medusajs/framework": "2.8.8",
     "@medusajs/medusa": "2.8.8",
     "@medusajs/notification": "^2.8.8",
