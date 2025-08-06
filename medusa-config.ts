@@ -16,17 +16,6 @@ export default defineConfig({
     },
   },
 
-  // Desactiva por completo el Admin UI
-  plugins: [
-    {
-      resolve: '@medusajs/admin',
-      options: {
-        serve: false,
-        autoRebuild: false,
-      },
-    },
-  ],
-
   modules: [
     {
       resolve: '@medusajs/medusa/payment',
