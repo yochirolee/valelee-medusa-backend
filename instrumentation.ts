@@ -1,2 +1,4 @@
 // instrumentation.ts
-export default {}
+export function register() {
+    // vacío para producción sin OpenTelemetry
+  }
