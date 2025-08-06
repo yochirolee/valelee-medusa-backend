@@ -2128,7 +2128,7 @@
   resolved "https://registry.npmjs.org/@medusajs/cart/-/cart-2.8.8.tgz"
   integrity sha512-n/8uHWRemauqf0ad+Unb/Tu91w7ssdvptc6N+6pl50VZj5FHQGPkNjYHJBzJwy+NCiWxL5gqq5bPFsR8NduwtA==
 
-"@medusajs/cli@2.8.8":
+"@medusajs/cli@^2.8.8", "@medusajs/cli@2.8.8":
   version "2.8.8"
   resolved "https://registry.npmjs.org/@medusajs/cli/-/cli-2.8.8.tgz"
   integrity sha512-zwl/oAmN7ZSMAO1Qav3unJGKJzKpXnbFc4hsGZr4dY51HXIs5Xzt077Ia/mZR+tMiirHWY5MT4c8LoJuFMIhsQ==
