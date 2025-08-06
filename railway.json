@@ -3,10 +3,14 @@
       "builder": "NIXPACKS",
       "nixpacksPlan": {
         "phases": {
-          "install": { "cmds": ["npm install"] },
-          "start": { "cmds": ["npm run start"] }
+          "install": {
+            "cmds": ["npm install"]
+          },
+          "start": {
+            "cmds": ["npm run predeploy && npm run start"]
+          }
         }
       }
     }
-   }
-   
+  }
+  
