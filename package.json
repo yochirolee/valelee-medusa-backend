@@ -6,8 +6,7 @@
     "start": "medusa start",
     "dev": "medusa develop"
   },
-  "dependencies": {
-    "@medusajs/cli": "^2.8.8",
+  "dependencies": {    
     "@medusajs/framework": "2.8.8",
     "@medusajs/medusa": "2.8.8",
     "@medusajs/notification": "^2.8.8",
@@ -22,6 +21,7 @@
   },
   "devDependencies": {
     "@medusajs/test-utils": "2.8.8",
+    "@medusajs/cli": "^2.8.8",
     "@mikro-orm/cli": "6.4.3",
     "@swc/core": "1.5.7",
     "@swc/jest": "^0.2.36",
