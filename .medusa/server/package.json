@@ -2,7 +2,7 @@
   "name": "medusa-starter-default",
   "version": "0.0.1",
   "scripts": {
-    "predeploy": "medusa migrations run",
+    "predeploy": "medusa db:migrate",
     "start": "node server.js",
     "dev": "medusa develop",
     "build": "medusa build"
