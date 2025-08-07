@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "predeploy": "medusa migrations run",
-    "start": "medusa start",
+    "start": "node server.js",
     "dev": "medusa develop",
     "build": "medusa build"
   },
