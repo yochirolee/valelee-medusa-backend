@@ -2,10 +2,6 @@ import { loadEnv, defineConfig } from '@medusajs/framework/utils'
 
 loadEnv(process.env.NODE_ENV || 'development', process.cwd())
 
-// Set default port and host for Render deployment
-process.env.PORT = process.env.PORT || '9000'
-process.env.HOST = process.env.HOST || '0.0.0.0'
-
 export default defineConfig({
   projectConfig: {
     databaseUrl: process.env.DATABASE_URL,
