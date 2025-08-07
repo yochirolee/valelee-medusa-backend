@@ -7,6 +7,9 @@
     "dev": "medusa develop",
     "build": "medusa build"
   },
+  "engines": {
+  "node": ">=18.0.0"
+  },
   "dependencies": {    
     "@medusajs/framework": "2.8.8",
     "@medusajs/medusa": "2.8.8",
