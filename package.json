@@ -2,8 +2,8 @@
   "name": "medusa-starter-default",
   "version": "0.0.1",
   "scripts": {
-    "predeploy": "medusa migrations run",
-    "start": "node server.js",
+    "predeploy": "medusa db:migrate",
+    "start": "npx medusa start --port 9000 --host 0.0.0.0",
     "dev": "medusa develop",
     "build": "medusa build"
   },

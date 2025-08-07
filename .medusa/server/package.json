@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "predeploy": "medusa db:migrate",
-    "start": "node server.js",
+    "start": "npx medusa start --port 9000 --host 0.0.0.0",
     "dev": "medusa develop",
     "build": "medusa build"
   },
