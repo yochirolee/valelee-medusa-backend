@@ -1,11 +1,16 @@
 {
   "name": "medusa-starter-default",
   "version": "0.0.1",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "predeploy": "medusa db:migrate",
     "start": "npx medusa start --port 9000 --host 0.0.0.0",
     "dev": "medusa develop",
-    "build": "medusa build"
+    "build": "medusa build",
+    "postinstall": "medusa build",
+    "setup": "npm run build"
   },
   "dependencies": {    
     "@medusajs/framework": "2.8.8",

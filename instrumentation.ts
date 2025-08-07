@@ -22,3 +22,9 @@
 //     },
 //   })
 // }
+
+// Export an empty register function to prevent the module not found error
+export function register() {
+  // Empty function to satisfy the instrumentation requirement
+  console.log('Instrumentation disabled')
+}
