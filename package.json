@@ -3,9 +3,10 @@
   "version": "0.0.1",
   "scripts": {
     "predeploy": "medusa db:migrate",
-    "start": "npx medusa start --port 9000 --host 0.0.0.0",
+    "start": "medusa build && npx medusa start --port 9000 --host 0.0.0.0",
     "dev": "medusa develop",
-    "build": "medusa build"
+    "build": "medusa build",
+    "postinstall": "medusa build"
   },
   "engines": {
   "node": ">=18.0.0"
